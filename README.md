@@ -2,71 +2,73 @@
 
 ## Project Overview
 
-This project was completed as part of my Master of Science in Cybersecurity capstone. The project simulated a real-world cybersecurity consulting engagement for a small business operating a WordPress-based e-commerce website hosted on a Linux server environment.
+This project was completed as part of my Master’s in Cybersecurity capstone. It involved reviewing the security of a Linux-based web server environment supporting a WordPress application.
 
-The objective was to evaluate the security posture of the environment, develop a security program, implement server hardening measures, conduct vulnerability analysis, review security logs, and provide remediation recommendations.
+The objective was to identify risks, apply basic security improvements, and understand how vulnerabilities and system activity are analyzed in a real-world setting.
 
-## Technical Environment
+## Environment Overview
 
-- Red Hat Enterprise Linux 8.4
-- Apache 2.4.37
-- MariaDB 10.6.4
-- WordPress
-- SSH access through VPN
-- Kali Linux for vulnerability analysis
+- Linux server (Red Hat Enterprise Linux)
+- Apache web server
+- MariaDB database
+- WordPress application
+- SSH remote access
+- Kali Linux used for basic testing
 
 ## Project Phases
 
-### Phase 1: Security Program and Risk Assessment
-- Reviewed the server and business environment
-- Developed security policy and access management guidance
-- Created a risk assessment covering OS, web server, database, WordPress, and user-role risks
-- Proposed security controls including firewall, IDS, logging, monitoring, and hardening
+### Phase 1: Security Program & Risk Assessment
 
-### Phase 2: Security Implementation and Testing Strategy
-- Practiced role-based access control concepts
-- Reviewed administrative, security, and web administrator role separation
-- Practiced SSH hardening using key-based authentication
-- Developed a vulnerability analysis strategy using tools such as Nmap, Nikto, curl, dirb, netcat, ssh-audit, and searchsploit
+- Reviewed system components and identified security risks  
+- Evaluated OS, web server, database, and application-level risks  
+- Identified issues such as weak passwords, outdated software, and insecure configurations  
+- Recommended controls including patching, access control, and logging  
 
-### Phase 3: Vulnerability Assessment and SOC-Style Analysis
-- Conducted vulnerability assessment against a peer server environment
-- Performed service enumeration, directory scanning, SSL/TLS review, CMS fingerprinting, and WordPress analysis
-- Identified outdated software, exposed directories, weak headers, expired SSL certificate, XML-RPC exposure, and weak SSH algorithms
-- Reviewed ModSecurity logs to analyze detected scanner activity and determine whether malicious activity was blocked or logged
+### Phase 2: Security Implementation
+
+- Applied basic security concepts such as role-based access control  
+- Reviewed user roles and permissions  
+- Practiced SSH security improvements (key-based authentication)  
+- Focused on strengthening system configuration based on identified risks  
+
+### Phase 3: Vulnerability Assessment & SOC-Style Analysis
+
+- Performed basic vulnerability scanning and enumeration  
+- Identified issues such as outdated software, weak configurations, and exposed services  
+- Reviewed logs to understand system activity and detect potential security events  
+- Gained exposure to how SOC teams analyze alerts and system behavior  
 
 ## Tools Used
 
-- Nmap
-- Nikto
-- curl
-- dirb
-- Gobuster
-- Netcat
-- ssh-audit
-- searchsploit
-- testssl.sh
-- ModSecurity
-- OWASP Core Rule Set
-- Kali Linux
-- PuTTY
-- Microsoft Teams
-- Microsoft Office
+- Nmap  
+- Nikto  
+- Kali Linux  
+- Basic Linux commands  
+- ModSecurity (log review)
 
 ## Key Skills Demonstrated
 
-- Vulnerability assessment
-- Web server security review
-- Linux server hardening concepts
-- Access control and RBAC
-- SSH hardening
-- Security policy development
-- Risk assessment
-- Log review and forensic analysis
-- SOC-style investigation
-- Security documentation and reporting
-- Team leadership and project coordination
+- Risk assessment  
+- Basic vulnerability analysis  
+- Linux system security fundamentals  
+- Access control concepts (RBAC)  
+- Security configuration awareness  
+- Log review and monitoring basics  
+- Security documentation  
 
-## Important Note
+## What I Learned
 
-This repository contains sanitized academic project documentation. Sensitive information such as IP addresses, usernames, passwords, screenshots containing credentials, instructor contact information, team member contact information, and private school system details have been removed or redacted.
+- How to identify and evaluate security risks in a system  
+- How vulnerabilities impact real-world environments  
+- How basic security controls improve system protection  
+- How monitoring and logs help detect security issues  
+- How GRC and SOC concepts connect in practice  
+
+## Note
+
+This repository contains a simplified version of an academic project. Sensitive details such as IP addresses, credentials, and internal configurations have been removed.
+
+## Summary
+
+This project demonstrates my foundational understanding of cybersecurity concepts across risk assessment, basic implementation, and SOC-style analysis, as I continue building hands-on experience in the field.
+
