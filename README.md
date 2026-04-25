@@ -36,7 +36,7 @@ The objective was to identify risks, apply basic security improvements, and unde
 - Performed basic vulnerability scanning and enumeration  
 - Identified issues such as outdated software, weak configurations, and exposed services  
 - Reviewed logs to understand system activity and detect potential security events  
-- Gained exposure to how SOC teams analyze alerts and system behavior  
+- Reviewed logs and basic system activity to understand how potential security events can be identified  
 
 ## Tools Used
 
