@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project was completed as part of my Master’s in Cybersecurity capstone. It involved reviewing the security of a Linux-based web server environment supporting a WordPress application.
+This project simulates a real-world cybersecurity engagement conducted as part of my Master’s in Cybersecurity capstone. It involved assessing the security of a Linux-based web server environment supporting a WordPress application.
 
-The objective was to identify risks, apply basic security improvements, and understand how vulnerabilities and system activity are analyzed in a real-world setting.
+The objective was to identify risks, apply basic security improvements, and analyze vulnerabilities and system activity using SOC-style techniques.
 
 ## Environment Overview
 
