@@ -37,3 +37,6 @@ The goal was to strengthen access control, improve system configuration, and pre
 - How SSH key-based authentication improves remote access security
 - How security implementation connects to later vulnerability testing
 
+## Explanation
+
+In Phase 2, I focused on understanding how basic security controls are applied after identifying risks. I reviewed access control, user permissions, and SSH hardening concepts. This helped me understand how system configuration improvements can reduce security exposure.
