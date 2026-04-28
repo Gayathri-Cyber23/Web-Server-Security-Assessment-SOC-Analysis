@@ -36,6 +36,6 @@ The goal was to review system activity, identify unusual behavior, and gain basi
 - Why monitoring is important for detecting suspicious activity  
 - How SOC teams use logs and alerts to understand potential threats  
 
-## Interview Explanation
+## Explanation
 
 In Phase 3, I focused on understanding how system activity can be monitored and analyzed. I reviewed how basic scanning tools interact with a system and how those actions can be observed through logs. This gave me exposure to how SOC teams detect and investigate potential security events.
