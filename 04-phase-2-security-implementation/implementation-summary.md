@@ -1,10 +1,14 @@
 # Phase 2: Security Implementation Summary
 
+---
+
 ## Purpose
 
 Phase 2 focused on applying basic security improvements based on the risks identified in Phase 1.
 
 The goal was to strengthen access control, improve system configuration, and prepare for vulnerability testing.
+
+---
 
 ## Work Completed
 
@@ -14,6 +18,8 @@ The goal was to strengthen access control, improve system configuration, and pre
 - Practiced SSH hardening using key-based authentication
 - Developed a basic vulnerability testing approach
 
+---
+
 ## Security Concepts Applied
 
 - Role-based access control (RBAC)
@@ -21,6 +27,8 @@ The goal was to strengthen access control, improve system configuration, and pre
 - SSH security
 - User and permission management
 - Basic system hardening
+
+---
 
 ## Tools and Methods
 
@@ -30,12 +38,16 @@ The goal was to strengthen access control, improve system configuration, and pre
 - Nmap
 - Nikto
 
+---
+
 ## What I Learned
 
 - How access control helps reduce security risk
 - Why administrator accounts should have limited and defined permissions
 - How SSH key-based authentication improves remote access security
 - How security implementation connects to later vulnerability testing
+
+---
 
 ## Explanation
 
